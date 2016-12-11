@@ -4,3 +4,8 @@
 ```
 Have fun with nu11secur1ty =)
 ```
+# Directly install command:
+```
+curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/python_installer.sh | bash
+
+```
