@@ -12,5 +12,7 @@ cd Python-2.7.12
 ./configure --prefix=/usr/local
  make && sudo make altinstall
 echo "alias python=/usr/local/bin/python2.7" >> ~/.bashrc
+    cd /usr/local/bin/python2.7/
+    echo "export PATH=$(pwd):\$PATH" >> ~/.bashrc
       source ~/.bashrc
 
