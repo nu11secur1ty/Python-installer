@@ -14,7 +14,7 @@ make
 make altinstall
 echo "alias python=/usr/local/bin/python2.7" >> ~/.bashrc
 echo "export PATH=/usr/local/bin/python2.7:\$PATH" >> ~/.bashrc
-source ~/.bashrc
+source /root/.bashrc
 exit 0;
 
 
