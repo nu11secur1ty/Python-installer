@@ -10,8 +10,7 @@ yum install -y sqlite-devel
        tar xf Python-2.7.12.tar.xz
 cd Python-2.7.12
 ./configure --prefix=/usr/local
-make 
-make altinstall
+make && make altinstall
 echo "alias python=/usr/local/bin/python2.7" >> ~/.bashrc
 echo "export PATH=/usr/local/bin/python2.7:\$PATH" >> ~/.bashrc
 source /root/.bashrc
