@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 zypper in gcc
+zypper in make
 zypper in -y zlib-devel
 zypper in -y bzip2-devel
 zypper in -y openssl-devel
