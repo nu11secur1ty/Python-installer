@@ -12,4 +12,4 @@ curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/p
 ```
 curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/python37installer.sh | bash
 ```
-# link: [link](https://github.com/pyenv/pyenv/wiki/common-build-problems)
+# link: [more...](https://github.com/pyenv/pyenv/wiki/common-build-problems)
