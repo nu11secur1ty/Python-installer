@@ -11,5 +11,6 @@ zypper in -y sqlite-devel
        tar -xvf Python-3.7.2.tgz
 cd Python-3.7.2
 ./configure --prefix=/usr/local
-make && make install
+    make  
+    make install
 exit 0;
