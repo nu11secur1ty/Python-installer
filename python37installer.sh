@@ -1,9 +1,10 @@
 #!/usr/bin/bash
-zypper install -y zlib-devel
-zypper install -y bzip2-devel
-zypper install -y openssl-devel
-zypper install -y ncurses-devel 
-zypper install -y sqlite-devel 
+zypper in gcc
+zypper in -y zlib-devel
+zypper in -y bzip2-devel
+zypper in -y openssl-devel
+zypper in -y ncurses-devel 
+zypper in -y sqlite-devel 
     cd /opt
        wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
        tar -xvf Python-3.7.2.tgz
