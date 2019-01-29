@@ -12,4 +12,6 @@ curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/p
 ```
 curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/python37installer.sh | bash
 ```
+![](https://github.com/nu11secur1ty/Python-installer/blob/master/screen/Screenshot%20from%202019-01-29%2010-58-55.png)
+
 # link: [more...](https://github.com/pyenv/pyenv/wiki/common-build-problems)
