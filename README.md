@@ -8,7 +8,7 @@ Have fun with nu11secur1ty =)
 ```
 curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/python_installer.sh | bash
 ```
-# OpenSuse 42.3 ***test***
+# OpenSuse 42.3
 ```
 curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/python37installer.sh | bash
 ```
