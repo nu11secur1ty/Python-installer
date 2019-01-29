@@ -1,4 +1,8 @@
 #!/usr/bin/bash
+# Author Ventsislav Varbanovski @nu11secur1ty
+# Support developer Atanas Stoev
+# @2019
+
 zypper in gcc
 zypper in make
 zypper in -y zlib-devel
