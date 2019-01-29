@@ -16,8 +16,11 @@ cd Python-3.7.2
 ./configure --prefix=/usr/local
     make  
     make install
-exit 0;
-python3.7 -m pip install --upgrade setuptools
-python3.7 -m pip install --upgrade pip
+        sleep 3
+    python3.7 -m pip install --upgrade setuptools
+    python3.7 -m pip install --upgrade pip
+        sleep 1
+        echo -e "Congratulations. Now you are using python 3.7 on OpenSuse 42.3.\n\nIf somehow you see an error please report it on our official GitHub page.\n\nhttps://github.com/nu11secur1ty/Python-installer/issues \n\n <--||===========>"
 
-echo -e "Congratulations. Now you are using python 3.7 on OpenSuse 42.3.\n\nIf somehow you see an error please report it on our official GitHub page.\n\nhttps://github.com/nu11secur1ty/Python-installer/issues \n\n <--||===========>"
+exit 0;
+
