@@ -1,4 +1,6 @@
 #!/usr/bin/bash
+# CentOS system v
+
 yum groupinstall "Development tools"
 yum install -y zlib-devel
 yum install -y bzip2-devel
