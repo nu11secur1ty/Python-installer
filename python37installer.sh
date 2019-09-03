@@ -3,15 +3,15 @@
 # Support developer Atanas Stoev
 # @2019
 
-zypper in gcc
-zypper in make
-zypper in -y zlib-devel
+zypper install gcc
+zypper install make
+zypper install -y zlib-devel
 #zypper in -y bzip2-devel
-zypper in -y bzip2
-zypper in -y openssl-devel
-zypper in -y ncurses-devel 
-zypper in -y sqlite-devel 
-zypper in zlib-devel bzip2 libbz2-devel libffi-devel libopenssl-devel readline-devel sqlite3 sqlite3-devel xz xz-devel 
+zypper install -y bzip2
+zypper install -y openssl-devel
+zypper install -y ncurses-devel 
+zypper install -y sqlite-devel 
+zypper install -y zlib-devel bzip2 libbz2-devel libffi-devel libopenssl-devel readline-devel sqlite3 sqlite3-devel xz xz-devel 
 
     cd /opt
        wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
