@@ -3,8 +3,8 @@
 # Support developer Atanas Stoev
 # @2019
 
-zypper install gcc
-zypper install make
+zypper install -y gcc
+zypper install -y make
 zypper install -y zlib-devel
 #zypper in -y bzip2-devel
 zypper install -y bzip2
