@@ -16,7 +16,7 @@ curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/p
 
 # link: [more...](https://github.com/pyenv/pyenv/wiki/common-build-problems)
 
-# OpenSuse 15.x
+# OpenSuse 15.x Python 3.9.0
 ```
 curl -s https://raw.githubusercontent.com/nu11secur1ty/Python-installer/master/3.9.0/suse390.sh | bash
 ```
