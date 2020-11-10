@@ -4,7 +4,11 @@
 # Support developer Atanas Stoev(2019)
 # @2020
 
-zypper install -y gcc7
+# GCC 
+zypper install -y gcc8
+rm -rf /usr/bin/gcc*
+    sleep 3
+# Packages
 zypper install -y make
 zypper install -y zlib-devel
 #zypper in -y bzip2-devel
