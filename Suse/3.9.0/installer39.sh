@@ -1,9 +1,15 @@
 #!/usr/bin/bash
 # Author Ventsislav Varbanovski @nu11secur1ty
-# Support developer Atanas Stoev
-# @2019-2020
+# Support developer Atanas Stoev(2019)
+# @2020
 
+# GCC for normal Leap42.3
 #zypper install -y gcc
+
+# GCC manual 
+zypper addrepo https://download.opensuse.org/repositories/openSUSE:Leap:15.2/standard/openSUSE:Leap:15.2.repo
+zypper refresh
+zypper install -y gcc7
 zypper install -y gcc-7
 zypper install -y make
 zypper install -y zlib-devel
