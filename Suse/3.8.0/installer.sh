@@ -25,6 +25,6 @@ cd Python-3.8.0
     python3.8 -m pip install --upgrade setuptools
     python3.8 -m pip install --upgrade pip
         sleep 1
-        echo -e "Congratulations. Now you are using python 3.7 on OpenSuse 42.3 and 15.0.\n\nIf somehow you see an error please report it on our official GitHub page.\n\nhttps://github.com/nu11secur1ty/Python-installer/issues \n\n <--||===========>"
+        echo -e "Congratulations. Now you are using python 3.8 on OpenSuse 42.3 and 15.0.\n\nIf somehow you see an error please report it on our official GitHub page.\n\nhttps://github.com/nu11secur1ty/Python-installer/issues \n\n <--||===========>"
 
 exit 0;
