@@ -6,7 +6,7 @@
 # GCC for normal Leap42.3
 # zypper install -y gcc
 
-# Need to install
+# GCC
 zypper -n remove gcc8
 zypper install -y gcc8
 rm -rf /usr/bin/gcc*
