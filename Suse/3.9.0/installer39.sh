@@ -8,8 +8,8 @@
 
 # GCC
 zypper -n remove gcc8
+    rm -rf /usr/bin/gcc*
 zypper install -y gcc8
-rm -rf /usr/bin/gcc*
     sleep 3
 ln -s /usr/bin/gcc-8 /usr/bin/gcc
 
