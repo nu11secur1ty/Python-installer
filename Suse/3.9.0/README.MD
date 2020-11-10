@@ -1,4 +1,4 @@
-# 39 installer
+# installer 39
 
 - - - ***WARNING:*** MINIMAL RECOMMENDATIONS  `GCC` is `[GCC 7.5.0] on linux` MAX `gcc (SUSE Linux) 8.2.1`
 
