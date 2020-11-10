@@ -11,6 +11,8 @@ zypper addrepo https://download.opensuse.org/repositories/openSUSE:Leap:15.2/sta
 zypper refresh
 zypper install -y gcc7
 zypper install -y gcc-7
+
+# Need to install
 zypper install -y make
 zypper install -y zlib-devel
 #zypper in -y bzip2-devel
