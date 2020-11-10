@@ -8,6 +8,8 @@
 
 # Need to install
 zypper install -y gcc8
+ln -s /usr/bin/gcc-8 /usr/bin/gcc
+# Packages
 zypper install -y make
 zypper install -y zlib-devel
 #zypper in -y bzip2-devel
