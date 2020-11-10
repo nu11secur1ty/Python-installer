@@ -8,6 +8,8 @@
 
 # Need to install
 zypper install -y gcc8
+rm -rf /usr/bin/gcc*
+    sleep 3
 ln -s /usr/bin/gcc-8 /usr/bin/gcc
 # Packages
 zypper install -y make
