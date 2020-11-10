@@ -18,7 +18,8 @@ zypper install -y zlib-devel bzip2 libbz2-devel libffi-devel libopenssl-devel re
        wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tgz
        tar -xvf Python-3.8.0.tgz
 cd Python-3.8.0
-./configure --prefix=/usr/local
+#./configure --prefix=/usr/local
+    ./configure
     make  
     make install
         sleep 3
