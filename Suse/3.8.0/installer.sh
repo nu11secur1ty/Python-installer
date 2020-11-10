@@ -19,7 +19,6 @@ zypper install -y zlib-devel bzip2 libbz2-devel libffi-devel libopenssl-devel re
        tar -xvf Python-3.8.0.tgz
 cd Python-3.8.0
     ./configure --prefix=/usr/local
-    ./configure --enable-optimizations
     make  
     make install
         sleep 3
