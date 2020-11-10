@@ -7,7 +7,7 @@
 # zypper install -y gcc
 
 # Need to install
-zypper install -y gcc7
+zypper install -y gcc8
 zypper install -y make
 zypper install -y zlib-devel
 #zypper in -y bzip2-devel
