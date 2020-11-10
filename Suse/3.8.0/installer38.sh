@@ -4,10 +4,13 @@
 # Support developer Atanas Stoev(2019)
 # @2020
 
-# GCC 
+# GCC
+zypper -n remove gcc8
 zypper install -y gcc8
 rm -rf /usr/bin/gcc*
     sleep 3
+ln -s /usr/bin/gcc-8 /usr/bin/gcc
+
 # Packages
 zypper install -y make
 zypper install -y zlib-devel
