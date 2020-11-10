@@ -1,9 +1,10 @@
 #!/usr/bin/bash
 # Author Ventsislav Varbanovski @nu11secur1ty
 # Support developer Atanas Stoev
-# @2019
+# @2019-2020
 
-zypper install -y gcc
+#zypper install -y gcc
+zypper install -y gcc-7
 zypper install -y make
 zypper install -y zlib-devel
 #zypper in -y bzip2-devel
