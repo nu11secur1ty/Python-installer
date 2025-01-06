@@ -45,7 +45,7 @@ make
 sudo make install
 
 # Setup Path env
-PATH=/opt/python/<PYTHON-VERSION>/bin/:$PATH
+PATH=/opt/python/$VERSION/bin/:$PATH
 
 # pip
 curl -O https://bootstrap.pypa.io/get-pip.py
