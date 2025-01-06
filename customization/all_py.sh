@@ -21,7 +21,7 @@ sudo apt-get install \
     zlib1g-dev
 
 # Env
-echo "Give the version"
+echo "Give the version! If you don't know the correct number of the version press Ctrl + C and never come back here!"
 read VERSION
 echo "Give the major"
 read MAJOR
