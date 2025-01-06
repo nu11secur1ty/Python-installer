@@ -44,6 +44,9 @@ cd Python-${PYTHON_VERSION}
 make
 sudo make install
 
+# Setup Path env
+PATH=/opt/python/<PYTHON-VERSION>/bin/:$PATH
+
 # pip
 curl -O https://bootstrap.pypa.io/get-pip.py
 sudo /opt/python/${PYTHON_VERSION}/bin/python${PYTHON_MAJOR} get-pip.py
