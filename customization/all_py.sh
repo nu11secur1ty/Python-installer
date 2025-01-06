@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 # @n11secur1ty
-
+# All versions - manual installer  
 # Packages
 sudo apt-get update
 sudo apt-get install \
